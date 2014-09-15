@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html class="{{ htmlClass }}">
-	<head>
-		<title>{{ title }}</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" />
-		
-		<link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
+<html class="{{ htmlClass }}" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
-		{% pattern-lab-head %}
-		<!-- End Pattern Lab -->
-	
-	</head>
-	<body class="{{ bodyClass }}">	
-		
+    <!-- Pattern Lab Styles -->
+    <link rel="stylesheet" href="../../css/pattern-lab.css?{{ cacheBuster }}" media="all">
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="../../../../css/styles.css?{{ cacheBuster }}" media="all">
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    {% pattern-lab-head %}
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="{{ bodyClass }}">

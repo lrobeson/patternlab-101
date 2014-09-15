@@ -1,0 +1,8 @@
+<article class="node node--article node--full" role="article">
+  <h1 class="node__title">{{ node.title }}</h1>
+  <footer>
+    <div class="node__date">{{ month.long }} {{ day.long }}, {{ year.long }}</div>
+    <div class="node__author"><a href="{{ url }}">{{ author.first-name }} {{ author.last-name }}</a></div>
+  </footer>
+  {{> molecules-article-body }}
+</article>

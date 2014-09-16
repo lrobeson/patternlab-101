@@ -1,38 +1,23 @@
-<fieldset>
-    <div class="field-container">
-        <label for="text">Text Input <abbr title="Required">*</abbr></label>
-        <input id="text" type="text" placeholder="Text Input">
-    </div>
-    <div class="field-container">
-        <label for="password">Password</label>
-        <input id="password" type="password" placeholder="Type your Password">
-    </div>
-    <div class="field-container">
-        <label for="webaddress">Web Address</label>
-        <input id="webaddress" type="url" placeholder="http://yoursite.com">
-    </div>
-    <div class="field-container">
-        <label for="emailaddress">Email Address</label>
-        <input id="emailaddress" type="email" placeholder="name@email.com">
-    </div>
-    <div class="field-container">
-        <label for="search">Search</label>
-        <input id="search" type="search" placeholder="Enter Search Term">
-    </div>
-    <div class="field-container">
-        <label for="text">Number Input <abbr title="Required">*</abbr></label>
-        <input id="text" type="number" placeholder="Enter a Number" pattern="[0-9]*">
-    </div>
-    <div class="field-container">
-        <label for="textarea">Textarea</label>
-        <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
-    </div>
-    <div class="field-container">
-        <label class="error">Error Input</label>
-        <input class="is-error" type="text" placeholder="Text Input">
-    </div>
-    <div class="field-container">
-        <label  class="valid">Valid</label>
-        <input  class="is-valid" type="text" placeholder="Text Input">
-    </div>
-</fieldset>
+<div class="form-item form-item--textfield">
+  <label class="form-item__label" for="edit-textfield">Textfield</label>
+  <input type="text" autocapitalize="off" autocorrect="off" id="edit-textfield" name="textfield" size="60" maxlength="128" class="form-text">
+  <div class="form-item__description">The description for this form field.</div>
+</div>
+
+<div class="form-item form-item--textfield is-required">
+  <label class="form-item__label" for="edit-textfield">Required  <span class="form-item__required-marker"><span class="element-invisible">This field is required.</span></span></label>
+  <input type="text" autocapitalize="off" autocorrect="off" id="edit-required-textfield" name="required-textfield" size="60" maxlength="128" class="form-text is-required">
+  <div class="form-item__description">The description for this form field.</div>
+</div>
+
+<div class="form-item form-item--password">
+  <label class="form-item__label" for="edit-password">Password </label>
+  <input type="password" autocapitalize="off" autocorrect="off" id="edit-password" name="password" size="60" maxlength="128" class="form-text">
+  <div class="form-item__description">The description for this form field.</div>
+</div>
+
+<div class="form-item form-item--textarea">
+  <label class="form-item__label" for="edit-textarea">Textarea </label>
+  <textarea id="edit-textarea" name="textarea" cols="60" rows="5" class="form-textarea"></textarea>
+  <div class="form-item__description">The description for this form field.</div>
+</div>

@@ -1,4 +1,4 @@
-##
+## Pattern Lab: Gesso
 
 This version of Pattern Lab modifies the markup and styles to match those in the [Gesso](http://drupal.org/project/gesso) Drupal theme.
 

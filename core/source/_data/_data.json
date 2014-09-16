@@ -7,24 +7,20 @@
   },
   "img": {
     "landscape-4x3": {
-      "src": "../../images/fpo_4x3.png",
-      "alt": "4x3 Image"
+      "src": "http://placeimg.com/1600/1200/nature",
+      "alt": "4:3 Image"
     },
     "landscape-16x9": {
-      "src": "../../images/fpo_16x9.png",
-      "alt": "16x9 Image"
+      "src": "http://placeimg.com/1600/900/nature",
+      "alt": "16:9 Image"
+    },
+    "vertical-3x4": {
+      "src": "http://placeimg.com/1200/1600/nature",
+      "alt": "3:4 Image"
     },
     "square": {
-      "src": "../../images/fpo_square.png",
-      "alt": "Square Thumbnail"
-    },
-    "avatar" : {
-      "src" : "../../images/fpo_avatar.png",
-      "alt" : "Person Name"
-    },
-    "rectangle": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "Rectangle"
+      "src": "http://placeimg.com/1000/1000/nature",
+      "alt": "Square"
     }
   },
   "headline" : {

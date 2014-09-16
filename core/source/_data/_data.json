@@ -3,24 +3,21 @@
   "htmlClass": "pl",
   "bodyClass": "",
   "node": {
-    "title": "Node Title"
+    "title": "Node Title",
+    "summary": "This is the node summary."
   },
   "img": {
-    "landscape-4x3": {
+    "landscape": {
       "src": "http://placeimg.com/1600/1200/nature",
-      "alt": "4:3 Image"
+      "alt": "Landscape Image"
     },
-    "landscape-16x9": {
-      "src": "http://placeimg.com/1600/900/nature",
-      "alt": "16:9 Image"
-    },
-    "vertical-3x4": {
+    "portrait": {
       "src": "http://placeimg.com/1200/1600/nature",
-      "alt": "3:4 Image"
+      "alt": "Portrait Image"
     },
     "square": {
       "src": "http://placeimg.com/1000/1000/nature",
-      "alt": "Square"
+      "alt": "Square Image"
     }
   },
   "headline" : {

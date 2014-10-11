@@ -1,0 +1,6 @@
+/* line 4, ../sass/partials/layout/_page.scss */
+.layout-constrain, .sg-pattern {
+  margin: 0 auto;
+  max-width: 75em;
+  padding: 0 1em;
+}

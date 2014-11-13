@@ -253,7 +253,7 @@
 
 .sg-current-size {
   font-size: 70%;
-  color: gray;
+  color: #dddddd;
   padding: 0.85em 0.7em; }
   .sg-current-size:hover .sg-input {
     background: #999999;

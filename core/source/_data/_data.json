@@ -1,89 +1,60 @@
 {
-  "title" : "Page Title",
-  "htmlClass": "pl",
+  "siteName": "Site Name",
+  "htmlClass": "",
   "bodyClass": "",
-  "node": {
-    "title": "Node Title",
-    "summary": "This is the node summary."
-  },
+  "pageTitle": "Page Title",
+  "url": "#",
+  "title": "Title",
+  "summary": "<p>This is the summary, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. It should be 600 characters or less.</p>",
   "img": {
-    "landscape": {
-      "src": "http://placeimg.com/1600/1200/nature",
-      "alt": "Landscape Image"
+    "landscape-4x3": {
+      "src": "../../images/sample/fpo_4x3.png",
+      "alt": "4x3 Image"
     },
-    "portrait": {
-      "src": "http://placeimg.com/1200/1600/nature",
-      "alt": "Portrait Image"
+    "landscape-16x9": {
+      "src": "../../images/sample/fpo_16x9.png",
+      "alt": "16x9 Image"
     },
     "square": {
-      "src": "http://placeimg.com/1000/1000/nature",
-      "alt": "Square Image"
+      "src": "../../images/sample/fpo_square.png",
+      "alt": "Square Thumbnail"
+    },
+    "avatar": {
+      "src": "../../images/sample/fpo_avatar.png",
+      "alt": "Person Name"
+    },
+    "rectangle": {
+      "src": "http://placeimg.com/400/300/tech",
+      "alt": "Rectangle"
     }
   },
-  "headline" : {
-    "short" : "Lorem ipsum dolor sit (37 characters)",
-    "medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
-  },
-  "excerpt" : {
-    "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  },
-  "description" : "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
-  "url" : "#",
-  "name" : {
-    "first": "Lacy",
-    "firsti": "L",
-    "middle": "Tommie",
-    "middlei": "T",
-    "last": "Way",
-    "lasti": "W"
-  },
-  "year" : {
+  "year": {
     "long": "2013",
     "short": "13"
   },
-  "month" : {
+  "month": {
     "long": "February",
     "short": "Feb",
     "digit": "02"
   },
-  "dayofweek" : {
+  "weekday": {
     "long": "Monday",
     "short": "Mon"
   },
-  "day" : {
+  "day": {
     "long": "10",
     "short": "10",
     "ordinal": "th"
   },
-  "hour" : {
+  "hour": {
     "long": "01",
     "short": "1",
     "military": "13",
     "ampm": "pm"
   },
-  "minute" : {
+  "minute": {
     "long": "20",
     "short": "20"
   },
-  "seconds" : "31",
-  "author" : {
-    "first-name": "Author",
-    "last-name": "Name"
-  },
-  "hero": true,
-  "emergency" : false,
-  "touts" : [
-    { },
-    { },
-    { }
-  ],
-  "latest-posts" : [
-    { },
-    { },
-    { },
-    { },
-    { }
-  ]
+  "seconds": "31"
 }

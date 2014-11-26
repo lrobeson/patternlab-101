@@ -7,25 +7,21 @@
   "title": "Title",
   "summary": "<p>This is the summary, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. It should be 600 characters or less.</p>",
   "img": {
-    "landscape-4x3": {
-      "src": "../../images/sample/fpo_4x3.png",
-      "alt": "4x3 Image"
+    "icon": {
+      "src": "http://fpoimg.com/48x48?text=Icon",
+      "alt": "Icon"
     },
-    "landscape-16x9": {
-      "src": "../../images/sample/fpo_16x9.png",
-      "alt": "16x9 Image"
+    "thumbnail": {
+      "src": "http://fpoimg.com/140x105?text=Thumbnail 4:3",
+      "alt": "Thumbnail 4:3"
     },
-    "square": {
-      "src": "../../images/sample/fpo_square.png",
-      "alt": "Square Thumbnail"
+    "portrait": {
+      "src": "http://fpoimg.com/300x400?text=Portrait 3:4",
+      "alt": "Portrait 3:4"
     },
-    "avatar": {
-      "src": "../../images/sample/fpo_avatar.png",
-      "alt": "Person Name"
-    },
-    "rectangle": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "Rectangle"
+    "landscape": {
+      "src": "http://fpoimg.com/800x450?text=Landscape 16:9",
+      "alt": "Landscape 16:9"
     }
   },
   "year": {

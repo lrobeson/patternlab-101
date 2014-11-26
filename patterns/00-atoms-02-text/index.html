@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html class="pl" lang="en" dir="ltr">
+<!--[if lt IE 7]>      <html class="ie6 lt-ie9 lt-ie8 lt-ie7 " lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]>         <html class="ie7 lt-ie9 lt-ie8 " lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>         <html class="ie8 lt-ie9 " lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 " lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="" lang="en" dir="ltr"> <!--<![endif]-->
+<html class="" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>Page Title | Site Name</title>
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="width">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,14 +15,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <!--[if gte IE 9]><!-->
-    <link rel="stylesheet" href="../../css/styles.css?1413294980" media="all">
+    <link rel="stylesheet" href="../../css/styles.css?1417040543" media="all">
     <!--<![endif]-->
 
     <!--[if lt IE 9]>
-    <link rel="stylesheet" href="../../css/no-mq.css?1413294980" media="all">
+    <link rel="stylesheet" href="../../css/no-mq.css?1417040543" media="all">
     <![endif]-->
 
-    <link rel="stylesheet" href="../../css/pattern-lab.css?1413294980" media="all">
+    <link rel="stylesheet" href="../../css/pattern-lab.css?1417040543" media="all">
+
+    <script src="../../drupal/misc/jquery.js?v=1.4.4"></script>
+    <script src="../../drupal/misc/jquery.once.js?v=1.2"></script>
+    <script src="../../drupal/misc/drupal.js?v=7.33"></script>
+
+    <script src="../../js/mobile-menu.js?1417040543"></script>
+    <script src="../../js/skiplinks.js?1417040543"></script>
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     		<!-- never cache patterns -->
@@ -27,14 +39,17 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1413294980" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1413294980" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1417040543" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1417040543" media="all" />
 		
 
     <!-- End Pattern Lab -->
 
   </head>
   <body class="">
+    <div class="skiplinks">
+      <a href="#main" class="skiplinks__link element-invisible element-focusable">Skip to main content</a>
+    </div>
 		
 		<!-- View All Patterns in a Pattern Sub-Type -->
 		<div class="sg-main" role="main">
@@ -209,24 +224,8 @@
 							</div>
 						</div>
 					</div>
-					<div id="atoms-time" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-04-time/00-atoms-02-text-04-time.html" class="patternLink" data-patternpartial="atoms-time">Time</a></h2>
-						<div class="sg-pattern-body">
-							<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
-
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;time datetime=&quot;2013-04-06T12:32+00:00&quot;&gt;2 weeks ago&lt;/time&gt;
-
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
 					<div id="atoms-preformatted-text" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-05-preformatted-text/00-atoms-02-text-05-preformatted-text.html" class="patternLink" data-patternpartial="atoms-preformatted-text">Preformatted Text</a></h2>
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-04-preformatted-text/00-atoms-02-text-04-preformatted-text.html" class="patternLink" data-patternpartial="atoms-preformatted-text">Preformatted Text</a></h2>
 						<div class="sg-pattern-body">
 							<pre>
 P R E F O R M A T T E D T E X T
@@ -258,7 +257,7 @@ p q r s t u v w x y z { | } ~
 						</div>
 					</div>
 					<div id="atoms-hr" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-06-hr/00-atoms-02-text-06-hr.html" class="patternLink" data-patternpartial="atoms-hr">Hr</a></h2>
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-05-hr/00-atoms-02-text-05-hr.html" class="patternLink" data-patternpartial="atoms-hr">Hr</a></h2>
 						<div class="sg-pattern-body">
 							<hr>
 
@@ -318,10 +317,10 @@ p q r s t u v w x y z { | } ~
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1413294980">
+	<script id="pl-js-polyfill-insert-1417040543">
 		(function() {
 			if (self != top) {
-				var cb = '1413294980';
+				var cb = '1417040543';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -330,10 +329,10 @@ p q r s t u v w x y z { | } ~
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1413294980">
+	<script id="pl-js-insert-1417040543">
 		(function() {
 			if (self != top) {
-				var cb = '1413294980';
+				var cb = '1417040543';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}

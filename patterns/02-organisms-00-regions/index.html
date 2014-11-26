@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html class="pl" lang="en" dir="ltr">
+<!--[if lt IE 7]>      <html class="ie6 lt-ie9 lt-ie8 lt-ie7 " lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]>         <html class="ie7 lt-ie9 lt-ie8 " lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>         <html class="ie8 lt-ie9 " lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 " lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="" lang="en" dir="ltr"> <!--<![endif]-->
+<html class="" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>Page Title | Site Name</title>
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="width">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,14 +15,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <!--[if gte IE 9]><!-->
-    <link rel="stylesheet" href="../../css/styles.css?1413294980" media="all">
+    <link rel="stylesheet" href="../../css/styles.css?1417040543" media="all">
     <!--<![endif]-->
 
     <!--[if lt IE 9]>
-    <link rel="stylesheet" href="../../css/no-mq.css?1413294980" media="all">
+    <link rel="stylesheet" href="../../css/no-mq.css?1417040543" media="all">
     <![endif]-->
 
-    <link rel="stylesheet" href="../../css/pattern-lab.css?1413294980" media="all">
+    <link rel="stylesheet" href="../../css/pattern-lab.css?1417040543" media="all">
+
+    <script src="../../drupal/misc/jquery.js?v=1.4.4"></script>
+    <script src="../../drupal/misc/jquery.once.js?v=1.2"></script>
+    <script src="../../drupal/misc/drupal.js?v=7.33"></script>
+
+    <script src="../../js/mobile-menu.js?1417040543"></script>
+    <script src="../../js/skiplinks.js?1417040543"></script>
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     		<!-- never cache patterns -->
@@ -27,14 +39,17 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1413294980" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1413294980" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1417040543" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1417040543" media="all" />
 		
 
     <!-- End Pattern Lab -->
 
   </head>
   <body class="">
+    <div class="skiplinks">
+      <a href="#main" class="skiplinks__link element-invisible element-focusable">Skip to main content</a>
+    </div>
 		
 		<!-- View All Patterns in a Pattern Sub-Type -->
 		<div class="sg-main" role="main">
@@ -78,8 +93,8 @@
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
-											<a href="../../patterns/00-atoms-09-page-elements-00-site-name/00-atoms-09-page-elements-00-site-name.html"><code>atoms-site-name</code></a>
-											<a href="../../patterns/00-atoms-09-page-elements-01-site-slogan/00-atoms-09-page-elements-01-site-slogan.html"><code>atoms-site-slogan</code></a>
+											<a href="../../patterns/00-atoms-10-page-elements-00-site-name/00-atoms-10-page-elements-00-site-name.html"><code>atoms-site-name</code></a>
+											<a href="../../patterns/00-atoms-10-page-elements-01-site-slogan/00-atoms-10-page-elements-01-site-slogan.html"><code>atoms-site-slogan</code></a>
 									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -118,7 +133,7 @@
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
-											<a href="../../patterns/01-molecules-03-navigation-00-main-menu/01-molecules-03-navigation-00-main-menu.html"><code>molecules-main-menu</code></a>
+											<a href="../../patterns/01-molecules-03-navigation-01-main-menu/01-molecules-03-navigation-01-main-menu.html"><code>molecules-main-menu</code></a>
 									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -145,7 +160,7 @@
 						<div class="sg-pattern-body">
 							<div class="region-preface layout-constrain">
   <nav class="breadcrumb" role="navigation">
-    <h2 class="breadcrumb__title">You are here')</h2>
+    <h2 class="breadcrumb__title">You are here</h2>
     <ul class="breadcrumb__list">
       <li class="breadcrumb__item"><a href="#">Home</a></li>
       <li class="breadcrumb__item"><a href="#">Section</a></li>
@@ -156,14 +171,14 @@
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
-											<a href="../../patterns/01-molecules-03-navigation-01-breadcrumbs/01-molecules-03-navigation-01-breadcrumbs.html"><code>molecules-breadcrumbs</code></a>
+											<a href="../../patterns/01-molecules-03-navigation-02-breadcrumbs/01-molecules-03-navigation-02-breadcrumbs.html"><code>molecules-breadcrumbs</code></a>
 									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;region-preface layout-constrain&quot;&gt;
   &lt;nav class=&quot;breadcrumb&quot; role=&quot;navigation&quot;&gt;
-    &lt;h2 class=&quot;breadcrumb__title&quot;&gt;You are here')&lt;/h2&gt;
+    &lt;h2 class=&quot;breadcrumb__title&quot;&gt;You are here&lt;/h2&gt;
     &lt;ul class=&quot;breadcrumb__list&quot;&gt;
       &lt;li class=&quot;breadcrumb__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
       &lt;li class=&quot;breadcrumb__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Section&lt;/a&gt;&lt;/li&gt;
@@ -201,7 +216,7 @@
   <div class="region-footer layout-constrain">
     <nav class="block  block--menu-block" role="navigation">
       <h2 class="element-invisible block__title">Footer menu</h2>
-      <ul class="nav nav--footer-menu">
+      <ul class="nav nav--menu-footer">
         <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
         <li class="nav__item"><a class="nav__link" href="#">About</a></li>
         <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
@@ -214,7 +229,7 @@
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
-											<a href="../../patterns/01-molecules-03-navigation-04-footer-menu/01-molecules-03-navigation-04-footer-menu.html"><code>molecules-footer-menu</code></a>
+											<a href="../../patterns/01-molecules-03-navigation-05-footer-menu/01-molecules-03-navigation-05-footer-menu.html"><code>molecules-footer-menu</code></a>
 									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -223,7 +238,7 @@
   &lt;div class=&quot;region-footer layout-constrain&quot;&gt;
     &lt;nav class=&quot;block  block--menu-block&quot; role=&quot;navigation&quot;&gt;
       &lt;h2 class=&quot;element-invisible block__title&quot;&gt;Footer menu&lt;/h2&gt;
-      &lt;ul class=&quot;nav nav--footer-menu&quot;&gt;
+      &lt;ul class=&quot;nav nav--menu-footer&quot;&gt;
         &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot; href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
         &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot; href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
         &lt;li class=&quot;nav__item&quot;&gt;&lt;a class=&quot;nav__link&quot; href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
@@ -283,10 +298,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1413294980">
+	<script id="pl-js-polyfill-insert-1417040543">
 		(function() {
 			if (self != top) {
-				var cb = '1413294980';
+				var cb = '1417040543';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -295,10 +310,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1413294980">
+	<script id="pl-js-insert-1417040543">
 		(function() {
 			if (self != top) {
-				var cb = '1413294980';
+				var cb = '1417040543';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}

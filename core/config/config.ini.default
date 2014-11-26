@@ -6,10 +6,10 @@
 v  = "0.7.12"
 
 // file extensions to ignore when building or watching the source dir, separate with a comma
-ie = "scss,DS_Store,less"
+ie = "scss,DS_Store,ruby-version,tmp"
 
 // directories and files to ignore when building or watching the source dir, separate with a comma
-id = "scss,.svn,.sass-cache"
+id = ".sass-cache,sass,config.rb,Gemfile,Gemfile.lock"
 
 // choose if these services should be loaded in the nav and their ports
 autoReloadNav  = "true"
@@ -31,7 +31,7 @@ ishMinimum = "240"
 ishMaximum = "2600"
 
 // which, if any, controls to hide in the nav, separate with a comma
-ishControlsHide = "hay"
+ishControlsHide = "random,disco,hay,mqs"
 
 // the order of pattern states, css class names
 patternStates = "inprogress,inreview,complete"

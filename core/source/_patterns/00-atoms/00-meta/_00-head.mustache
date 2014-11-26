@@ -1,8 +1,13 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="ie6 lt-ie9 lt-ie8 lt-ie7 {{ htmlClass }}" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]>         <html class="ie7 lt-ie9 lt-ie8 {{ htmlClass }}" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>         <html class="ie8 lt-ie9 {{ htmlClass }}" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 {{ htmlClass }}" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="{{ htmlClass }}" lang="en" dir="ltr"> <!--<![endif]-->
 <html class="{{ htmlClass }}" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>{{ title }}</title>
+    <title>{{ pageTitle }} | {{ siteName }}</title>
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="width">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,9 +24,19 @@
 
     <link rel="stylesheet" href="../../css/pattern-lab.css?{{ cacheBuster }}" media="all">
 
+    <script src="../../drupal/misc/jquery.js?v=1.4.4"></script>
+    <script src="../../drupal/misc/jquery.once.js?v=1.2"></script>
+    <script src="../../drupal/misc/drupal.js?v=7.33"></script>
+
+    <script src="../../js/mobile-menu.js?{{ cacheBuster }}"></script>
+    <script src="../../js/skiplinks.js?{{ cacheBuster }}"></script>
+
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     {% pattern-lab-head %}
     <!-- End Pattern Lab -->
 
   </head>
   <body class="{{ bodyClass }}">
+    <div class="skiplinks">
+      <a href="#main" class="skiplinks__link element-invisible element-focusable">Skip to main content</a>
+    </div>

@@ -6,10 +6,11 @@
   <div class="region-content layout-constrain">
 
     {{> atoms-page-title }}
-    {{> organisms-image-teaser }}
-    {{> organisms-teaser }}
-    {{> organisms-teaser }}
-    {{> organisms-teaser }}
+
+    {{# listItems.five }}
+      {{> organisms-image-teaser }}
+    {{/ listItems.five }}
+
     {{> molecules-pager }}
 
   </div>

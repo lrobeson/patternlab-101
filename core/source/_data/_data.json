@@ -6,6 +6,12 @@
   "url": "#",
   "title": "Title",
   "summary": "<p>This is the summary, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. It should be 600 characters or less.</p>",
+  "file": {
+    "icon": "../../drupal/images/application-pdf.png",
+    "mime": "application/pdf",
+    "name": "file name",
+    "size": "115.83 KB"
+  },
   "img": {
     "icon": {
       "src": "http://fpoimg.com/48x48?text=Icon",

@@ -9,7 +9,7 @@ v  = "0.7.12"
 ie = "scss,DS_Store,ruby-version,tmp"
 
 // directories and files to ignore when building or watching the source dir, separate with a comma
-id = ".sass-cache,sass,config.rb,Gemfile,Gemfile.lock"
+id = ".sass-cache"
 
 // choose if these services should be loaded in the nav and their ports
 autoReloadNav  = "true"

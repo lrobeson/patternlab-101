@@ -1,15 +1,16 @@
+[![Documentation Status](https://readthedocs.org/projects/patternlab-101/badge/?version=latest)](https://readthedocs.org/projects/patternlab-101/?badge=latest)
+
 # Pattern Lab 101
 Learn what this Pattern Lab thing is all about.
 
-
 ![Alt text](https://i.imgur.com/TvxJnHR.png "Motha flippin Pattern Lab")
 
-## About Pattern Lab
+# About Pattern Lab
 The PHP version of Pattern Lab is, at its core, a static site generator. It combines platform-agnostic assets, like the [Mustache](http://mustache.github.io/)-based patterns and the JavaScript-based viewer, with a PHP-based "builder" that transforms and dynamically builds the Pattern Lab site. By making it a static site generator, Pattern Lab strongly separates patterns, data, and presentation from build logic.
 
 This version of [Pattern Lab](http://patternlab.io/) modifies the markup and styles to match those in the [Gesso](http://drupal.org/project/gesso/) Drupal theme.
 
-[Official documentation](http://patternlab.io/docs/index.html) has been tweaked and combined into this single README.md file for [ReadTheDocs](https://readthedocs.org/) digestion. 
+[Official documentation](http://patternlab.io/docs/index.html) has been tweaked and combined into this single README.md file for [ReadTheDocs](https://readthedocs.org/) digestion: https://patternlab-101.readthedocs.org.
 
 # Getting Started
 
